@@ -2,7 +2,7 @@ language: r
 cache: packages
 
 install:
-  - Rscript -e "install.packages('')
+  - Rscript -e "print('skipping standard install')"
   
 script:
   - Rscript forecast.R
